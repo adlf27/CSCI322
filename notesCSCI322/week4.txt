@@ -1,0 +1,20 @@
+editText ->this allows text input and text editing from the user
+	getText() -> gets the values hold by the text field
+	toString() -> use to be converted to a string
+	  ex.)  getText().toString()
+
+	matches() -> can be used to compate two strings
+	  ex.)  matches(String Object)
+	setText() -> can be uses to change the text field
+
+Integer Class  ->  the wrapper class for the int primitive class
+
+	parseInt() -> convert string object to integer values
+
+Toast  ->  this allows a message to be display to the user of the app for a
+	   set amount of time
+	makeText() ->  method to create toast message. takes 3 Arguments
+	1.) Context Object
+	2.) the message display
+	3.) the duration to display the msg(Toast.LENGTH_SHORT or Toast.LENGTH_LONG)
+	show() ->  this method actually shows the msg on the screen

@@ -1,0 +1,29 @@
+Math.ceil  ->  this method returns the smallest doubla variable that is greater
+than or equal to the argument that is passed.
+	ex.) Math.ceil(125.9) will return 126.0
+	ex.) Math.ceil(0.4873) will return 1.0
+
+addTextChangedListener  ->  this will add a TextWatcher to an EditText field so that
+code can be written to respond as the data is being enter.
+
+TextWacther  ->  this specifies what should happens as the text changes
+three methods that always required
+
+1.) onTextChanged
+2.) afterTextChanged
+3.) beforeTextChanged
+
+DecimalFormat  class
+	->  this is used to format the display of a float/double value	
+	an object should be created that speciifes a pattern of what the data
+	should look like.
+
+the pattern is a string literal and can contain"
+	0 to represent where digits should be located
+	# to represent where digits should be located but will suppressed if zero
+	. decimal point
+	, number seprerator
+	ex.) DecimalFormat df = new DecimalFormat("#.00")
+	ex.) DecimalFormat df = new DecimalFormat("0.00")
+
+

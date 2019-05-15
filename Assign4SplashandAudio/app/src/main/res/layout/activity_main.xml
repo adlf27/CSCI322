@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solid"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/avengersImg"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="32dp"
+        android:onClick="playAvengers"
+        android:padding="15dp"
+        app:srcCompat="@drawable/avengers2" />
+
+    <ImageView
+        android:id="@+id/simpsonsImg"
+        android:layout_width="wrap_content"
+        android:layout_height="216dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="31dp"
+        android:onClick="playSimpsons"
+        android:padding="20dp"
+        app:srcCompat="@drawable/simpsons" />
+
+    <ImageView
+        android:id="@+id/starWarsImg"
+        android:layout_width="171dp"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:onClick="playStarWars"
+        android:padding="15dp"
+        app:srcCompat="@drawable/starwars" />
+
+    <ImageView
+        android:id="@+id/gotImg"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="236dp"
+        android:onClick="playGot"
+        android:padding="15dp"
+        app:srcCompat="@drawable/got" />
+
+    <ImageView
+        android:id="@+id/harryImg"
+        android:layout_width="193dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="playHarry"
+        android:padding="15dp"
+        app:srcCompat="@drawable/hp" />
+
+    <ImageView
+        android:id="@+id/mipImg"
+        android:layout_width="173dp"
+        android:layout_height="166dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="playMIP"
+        android:padding="15dp"
+        app:srcCompat="@drawable/mip" />
+
+</RelativeLayout>
